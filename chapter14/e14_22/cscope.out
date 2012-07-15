@@ -1,0 +1,712 @@
+cscope 15 $HOME/Documents/Dropbox/work/c++/e14_22               0000003062
+	@PtrScr.hpp
+
+1 #iâdeà
+__PTRSCR_HPP
+
+
+2 
+	#__PTRSCR_HPP
+
+
+	)
+
+4 
+	~"Sü“nPŒ.hµ
+"
+
+6 þas 
+	cPŒSü
+ {
+
+7 
+	mpublic
+:
+
+8 
+	$PŒSü
+(
+Sü“nPŒ
+* 
+±r
+): 
+	$µ
+(
+±r
+) {}
+
+9 
+Sü“nPŒ
+ *
+Ý”©Ü
+->(è{ 
+µ
+;
+	}
+}
+
+10 cÚ¡ 
+Sü“nPŒ
+ *
+	gÝ”©Ü
+->(ècÚ¡ { 
+	gµ
+;}
+
+11 
+	g´iv©e
+:
+
+12 
+Sü“nPŒ
+* 
+µ
+;
+
+	@ScrPtr.hpp
+
+1 #iâdeà
+__SCRPTR_HPP
+
+
+2 
+	#__SCRPTR_HPP
+
+
+	)
+
+3 
+	~<c¡ddef
+>
+
+4 
+	~"Sü“n.hµ
+"
+
+5 
+þass
+ 
+	gSü“n
+;
+
+7 þas 
+	cSüPŒ
+ {
+
+8 
+ä›nd
+ 
+þass
+ 
+	mSü“nPŒ
+;
+
+9 
+Sü“n
+ *
+	m¥
+;
+
+10 
+size_t
+ 
+	mu£
+;
+
+11 
+	$SüPŒ
+(
+Sü“n
+ *
+p
+): 
+	`¥
+Õ), 
+	$u£
+(1) {}
+
+12 ~
+	$SüPŒ
+(è{ 
+d–‘e
+ 
+¥
+; 
+	}
+}
+
+	@Screen.hpp
+
+1 #iâdeà
+__SCREEN_HPP
+
+
+2 
+	#__SCREEN_HPP
+
+
+	)
+
+4 
+	~<¡ršg
+>
+
+5 
+	~<io¡»am
+>
+
+7 þas 
+	cSü“n
+ {
+
+8 
+	mpublic
+:
+
+9 
+Sü“n
+(
+hght
+, 
+wth
+, cÚ¡ 
+¡d
+::
+¡ršg
+ &
+cÚ
+): 
+height
+(hght), 
+width
+(wth), 
+cursÜ
+(0), 
+	$cÚ‹Ás
+(
+cÚ
+) {}
+
+10 
+	$Sü“n
+(): 
+	`height
+(10), 
+	`width
+(10), 
+	`cursÜ
+(0), 
+	`cÚ‹Ás
+(""è{
+	}
+}
+
+11 
+šlše
+ 
+	gSü“n
+ &
+move
+(
+r
+, 
+c
+);
+
+12 
+šlše
+ 
+	gSü“n
+ &
+£t
+(
+ch
+);
+
+13 
+šlše
+ 
+	gSü“n
+ &
+di¥Ïy
+(
+¡d
+::
+o¡»am
+ &
+os
+);
+
+14 
+šlše
+ cÚ¡ 
+	gSü“n
+ &
+di¥Ïy
+(
+¡d
+::
+o¡»am
+ &
+os
+) const;
+
+17 
+	g´iv©e
+:
+
+18 
+height
+;
+
+19 
+	gwidth
+;
+
+20 
+	gcursÜ
+;
+
+21 
+	g¡d
+::
+¡ršg
+ 
+cÚ‹Ás
+;
+
+22 
+	g¡d
+::
+	t¡ršg
+::
+	tsize_ty³
+ 
+	tšdex
+;
+
+25 
+	gSü“n
+ &Sü“n::
+	$move
+(
+r
+, 
+c
+)
+
+28 
+cursÜ
+ = 
+width
+ * 
+r
+ + 
+c
+;
+
+30  *
+this
+;
+
+31 
+	}
+}
+
+33 
+	gSü“n
+ &Sü“n::
+	$£t
+(
+ch
+)
+
+36 
+cÚ‹Ás
+[
+cursÜ
+] = 
+ch
+;
+
+37  *
+this
+;
+
+38 
+	}
+}
+
+40 
+	gSü“n
+ &Sü“n::
+di¥Ïy
+(
+¡d
+::
+o¡»am
+ &
+os
+)
+
+42 
+os
+ << 
+cÚ‹Ás
+ << 
+¡d
+::
+’dl
+;
+
+43  *
+	gthis
+;
+
+45 cÚ¡ 
+	gSü“n
+ & Sü“n::
+di¥Ïy
+(
+¡d
+::
+o¡»am
+ &
+os
+) const
+
+47 
+os
+ << 
+cÚ‹Ás
+;
+
+48  *
+	gthis
+;
+
+	@ScreenPtr.cpp
+
+1 
+	~"Sü“nPŒ.hµ
+"
+
+3 
+	gSü“nPŒ
+& Sü“nPŒ::
+Ý”©Ü
+=(cÚ¡ 
+Sü“nPŒ
+& 
+rhs
+)
+
+5 ++
+rhs
+.
+±r
+->
+u£
+;
+
+6 ià(--
+	g±r
+->
+	gu£
+ == 0)
+
+7 
+d–‘e
+ 
+±r
+;
+
+8 
+	g±r
+ = 
+rhs
+.
+±r
+;
+
+10  *
+	gthis
+;
+
+	@ScreenPtr.hpp
+
+1 #iâdeà
+__SCREENPTR_HPP
+
+
+2 
+	#__SCREENPTR_HPP
+
+
+	)
+
+4 
+	~"SüPŒ.hµ
+"
+
+5 
+	~<io¡»am
+>
+
+7 þas 
+	cSü“nPŒ
+ {
+
+8 
+	mpublic
+:
+
+9 
+	$Sü“nPŒ
+(
+Sü“n
+ *
+p
+): 
+	`±r
+(
+Ãw
+ 
+	$SüPŒ
+(
+p
+)) { }
+
+10 
+	$Sü“nPŒ
+(cÚ¡ 
+Sü“nPŒ
+ &
+Üig
+):
+
+11 
+	$±r
+(
+Üig
+.
+±r
+è{ ++±r->
+u£
+;
+	}
+}
+
+12 
+	gSü“nPŒ
+& 
+	gÝ”©Ü
+=(cÚ¡ 
+Sü“nPŒ
+&);
+
+13 
+Sü“n
+* 
+	gÝ”©Ü
+->(è{  
+	g±r
+->
+	g¥
+; }
+
+14 ~
+	$Sü“nPŒ
+(è{ ià(--
+±r
+->
+u£
+ =ð0è
+d–‘e
+…Œ; 
+	}
+}
+
+15 
+ä›nd
+ 
+boÞ
+ 
+	gÝ”©Ü
+=ð(cÚ¡ 
+Sü“nPŒ
+& 
+rhv
+, cÚ¡ 
+	gSü“nPŒ
+& 
+	glhv
+);
+
+17 
+	$‹¡
+(è{ 
+¡d
+::
+cout
+ << "this is‡est function for PtrScr class"
+
+18 << 
+¡d
+::
+’dl
+;
+	}
+}
+
+19 
+	g´iv©e
+:
+
+20 
+SüPŒ
+ *
+±r
+;
+
+23 
+boÞ
+ 
+	gÝ”©Ü
+=ð(cÚ¡ 
+Sü“nPŒ
+& 
+rhv
+, cÚ¡ 
+	gSü“nPŒ
+& 
+	glhv
+)
+
+25 ià(*
+	grhv
+.
+	g±r
+ =ð*
+lhv
+.
+±r
+)
+
+26  
+Œue
+;
+
+28  
+	gçl£
+;
+
+31 
+boÞ
+ 
+	gÝ”©Ü
+!ð(cÚ¡ 
+Sü“nPŒ
+& 
+rhv
+, cÚ¡ 
+	gSü“nPŒ
+& 
+	glhv
+)
+
+33  !(
+	grhv
+ =ð
+lhv
+);
+
+	@main.cpp
+
+1 
+	~"Sü“nPŒ.hµ
+"
+
+2 
+	~"PŒSü.hµ
+"
+
+3 
+	~"Sü“n.hµ
+"
+
+4 
+	~<io¡»am
+>
+
+5 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+7 
+	$maš
+ ()
+
+9 
+Sü“n
+* 
+wš1
+ = 
+Ãw
+ 
+	`Sü“n
+(10, 10, "this is my screen");
+
+10 
+Sü“nPŒ
+ 
+	`wš1_±r
+(
+wš1
+);
+
+11 
+PŒSü
+ 
+	`wš1_±r_µ
+(&
+wš1_±r
+);
+
+13 
+wš1
+->
+	`£t
+('#').
+	`di¥Ïy
+(
+cout
+);
+
+14 
+wš1_±r_µ
+->
+	`‹¡
+();
+
+16 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+6
+70
+PtrScr.hpp
+ScrPtr.hpp
+Screen.hpp
+ScreenPtr.cpp
+ScreenPtr.hpp
+main.cpp

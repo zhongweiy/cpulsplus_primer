@@ -1,0 +1,788 @@
+cscope 15 $HOME/Documents/Dropbox/work/c++/e13_19               0000003399
+	@Folder.cpp
+
+1 
+	~"Mes§ge.hµ
+"
+
+2 
+	~"FÞd”.hµ
+"
+
+4 
+	gFÞd”
+::
+	$FÞd”
+(cÚ¡ 
+FÞd”
+ &
+f
+):
+
+5 
+	$mes§g”s
+(
+f
+.
+mes§g”s
+)
+
+7 
+	`put_Fld_š_mes§g”s
+(
+mes§g”s
+);
+
+8 
+	}
+}
+
+10 
+	gFÞd”
+& FÞd”::
+Ý”©”
+ð(cÚ¡ 
+FÞd”
+& 
+rhs
+)
+
+12 ià(&
+rhs
+ !ð
+this
+)
+
+14 
+»m_Fld_äom_mes§g”s
+();
+
+15 
+	gmes§g”s
+ = 
+rhs
+.
+mes§g”s
+;
+
+16 
+put_Fld_š_mes§g”s
+(
+rhs
+.
+mes§g”s
+);
+
+18  *
+	gthis
+;
+
+21 
+	gFÞd”
+::~
+	$FÞd”
+()
+
+23 
+	`»m_Fld_äom_mes§g”s
+();
+
+24 
+	}
+}
+
+26 
+	gFÞd”
+::
+	$addMsg
+(
+Mes§ge
+* 
+m
+)
+
+28 
+mes§g”s
+.
+	`š£¹
+(
+m
+);
+
+29 
+	}
+}
+
+31 
+	gFÞd”
+::
+	$»mMsg
+(
+Mes§ge
+* 
+m
+)
+
+33 
+mes§g”s
+.
+	`”a£
+(
+m
+);
+
+34 
+	}
+}
+
+36 
+	gFÞd”
+::
+	$§ve
+(
+Mes§g”s
+& 
+msg
+)
+
+38 
+	`addMsg
+(&
+msg
+);
+
+39 
+msg
+.
+	`addFldr
+(
+this
+);
+
+40 
+	}
+}
+
+42 
+	gFÞd”
+::
+	$»move
+(
+Mes§g”s
+ &
+msg
+)
+
+44 
+	`»mMsg
+(&
+msg
+);
+
+45 
+msg
+.
+	`»mFldr
+(
+this
+);
+
+46 
+	}
+}
+
+48 
+	gFÞd”
+::
+put_Fld_š_mes§g”s
+(cÚ¡ 
+¡d
+::
+£t
+<
+Mes§ge
+*>& 
+m
+)
+
+50 
+¡d
+::
+£t
+<
+Mes§ge
+*>::
+cÚ¡_™”©Ü
+ 
+beg
+ = 
+m
+.
+begš
+();
+
+51 
+	gbeg
+ !ð
+m
+.
+’d
+(); ++beg)
+
+53 (*
+	gbeg
+)->
+addFldr
+(
+this
+);
+
+57 
+	gFÞd”
+::
+	$»m_Fld_äom_mes§g”s
+()
+
+59 
+¡d
+::
+£t
+<
+Mes§ge
+*>::
+cÚ¡_™”©Ü
+ 
+beg
+ = 
+mes§g”s
+.
+	`begš
+();
+
+60 
+beg
+ !ð
+mes§g”s
+.
+	`’d
+(); ++beg)
+
+62 (*
+beg
+)->
+	`»mFldr
+(
+this
+);
+
+64 
+	}
+}
+
+	@Folder.hpp
+
+1 
+	~"Mes§ge.hµ
+"
+
+2 
+	~<£t
+>
+
+4 #iâdeà
+__FOLDER_HPP
+
+
+5 
+	#__FOLDER_HPP
+
+
+	)
+
+7 þas 
+	cFÞd”
+ {
+
+8 
+	mpublic
+:
+
+9 
+	$FÞd”
+() {}
+
+10 
+	`FÞd”
+(cÚ¡ 
+FÞd”
+ &);
+
+11 
+FÞd”
+& 
+Ý”©”
+= (const Folder&);
+
+12 ~
+	`FÞd”
+();
+
+14 
+	`addMsg
+(
+Mes§ge
+*);
+
+15 
+	`»mMsg
+(
+Mes§ge
+*);
+
+16 
+	`§ve
+(
+Mes§ge
+& 
+msg
+);
+
+17 
+	`»move
+(
+Mes§ge
+& 
+msg
+);
+
+18 
+´iv©e
+:
+
+19 
+¡d
+::
+£t
+<
+Mes§ge
+*> 
+mes§g”s
+;
+
+20 
+	`put_Fld_š_mes§g”s
+(cÚ¡ 
+¡d
+::
+£t
+<
+Mes§ge
+*>&);
+
+21 
+	`»m_Fld_äom_mes§g”s
+();
+
+23 
+	}
+}
+
+	@Message.cpp
+
+1 
+	~"Mes§ge.hµ
+"
+
+3 
+	gMes§ge
+::
+	$Mes§ge
+(cÚ¡ 
+Mes§ge
+ &
+m
+):
+
+4 
+	`cÚ‹Ás
+(
+m
+.
+cÚ‹Ás
+), 
+	$fÞd”s
+(
+m
+.
+fÞd”s
+)
+
+6 
+	`put_Msg_š_FÞd”s
+(
+fÞd”s
+);
+
+7 
+	}
+}
+
+9 
+	gMes§ge
+& Mes§ge::
+Ý”©”
+=(cÚ¡ 
+Mes§ge
+ &
+rhs
+)
+
+11 ià(&
+rhs
+ !ð
+this
+)
+
+13 
+»move_Msg_äom_FÞd”s
+();
+
+14 
+	gcÚ‹Ás
+ = 
+rhs
+.
+cÚ‹Ás
+;
+
+15 
+	gfÞd”s
+ = 
+rhs
+.
+fÞd”s
+;
+
+16 
+put_Msg_š_FÞd”s
+(
+rhs
+.
+fÞd”s
+);
+
+18  *
+	gthis
+;
+
+21 
+	gMes§ge
+::
+put_Msg_š_FÞd”s
+(cÚ¡ 
+£t
+<
+FÞd”
+*> &
+rhs
+)
+
+23 
+¡d
+::
+£t
+<
+FÞd”
+*>::
+cÚ¡_™”©Ü
+ 
+beg
+ = 
+rhs
+.
+begš
+();
+
+24 
+	gbeg
+ !ð
+rhs
+.
+’d
+(); ++beg)
+
+26 (*
+	gbeg
+)->
+addMsg
+(
+this
+);
+
+30 
+	gMes§ge
+::
+	$»move_Msg_äom_FÞd”s
+()
+
+32 
+¡d
+::
+£t
+<
+FÞd”
+*>::
+cÚ¡_™”©Ü
+ 
+beg
+ = 
+fÞd”s
+.
+	`begš
+();
+
+33 
+beg
+ !ð
+fÞd”s
+.
+	`’d
+(); ++beg)
+
+35 (*
+beg
+)->
+	`»mMsg
+(
+this
+);
+
+37 
+	}
+}
+
+39 
+	gMes§ge
+::
+	$addFldr
+(
+FÞd”s
+* 
+æd_±r
+)
+
+41 
+fÞd”s
+.
+	`š£¹
+(
+æd_±r
+);
+
+42 
+	}
+}
+
+44 
+	gMes§ge
+::
+	$»mFldr
+(
+FÞd”s
+* 
+æd_±r
+)
+
+46 
+fÞd”s
+.
+	`”a£
+(
+æd_±r
+);
+
+47 
+	}
+}
+
+49 
+	gMes§ge
+::
+	$§ve
+(
+FÞd”s
+ &
+f
+)
+
+51 
+	`addFldr
+(&
+f
+);
+
+52 
+f
+.
+	`addMsg
+(f);
+
+53 
+	}
+}
+
+55 
+	gMes§ge
+::
+	$»move
+(
+FÞd”s
+ &
+f
+)
+
+57 
+	`»mFldr
+(&
+f
+);
+
+58 
+f
+.
+	`»mMsg
+(f);
+
+59 
+	}
+}
+
+	@Message.hpp
+
+1 
+	~<£t
+>
+
+2 
+	~"FÞd”.hµ
+"
+
+3 
+	~<¡ršg
+>
+
+5 þas 
+	cMes§ge
+ {
+
+6 
+	mpublic
+:
+
+7 
+Mes§ge
+(cÚ¡ 
+¡d
+::
+¡ršg
+ &
+¡r
+ = ""):
+
+8 
+	$cÚ‹Á
+(
+¡r
+) {}
+
+9 
+	`Mes§ge
+(cÚ¡ 
+Mes§ge
+&);
+
+10 
+Mes§ge
+& 
+Ý”©Ü
+=(const Message&);
+
+11 ~
+	`Mes§ge
+();
+
+13 
+	`§ve
+(
+FÞd”
+&);
+
+14 
+	`»move
+(
+FÞd”
+&);
+
+15 
+	`addFldr
+(
+FÞd”
+*);
+
+16 
+	`»mFldr
+(
+FÞd”
+*);
+
+18 
+´iv©e
+:
+
+19 
+¡d
+::
+¡ršg
+ 
+cÚ‹Á
+;
+
+20 
+¡d
+::
+£t
+<
+FÞd”
+*> 
+fÞd”s
+;
+
+22 
+	`put_Msg_š_FÞd”s
+(cÚ¡ 
+¡d
+::
+£t
+<
+FÞd”
+*>&);
+
+23 
+	`»move_Msg_äom_FÞd”s
+();
+
+24 
+	}
+};
+
+	@
+1
+.
+1
+/usr/include
+4
+46
+Folder.cpp
+Folder.hpp
+Message.cpp
+Message.hpp

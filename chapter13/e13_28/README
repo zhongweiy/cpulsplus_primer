@@ -1,0 +1,1 @@
+there is error in this exercise, all pointers before deleting needed check whether the pointer is NULL.

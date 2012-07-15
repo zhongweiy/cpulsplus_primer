@@ -1,0 +1,15 @@
+bug report:
+
+6.12:
+the program has a bug in the solutions book:
+if input is such as: how, now now now and cow cow cow cow
+the bug would come out
+
+6.20
+the program has a bug in the solutions book:
+if input is such as: a b c Ctrl+D
+the bug would come out
+
+6.22
+the solutions is also wrong for the "sz" in the condition
+expression is out of scope.
